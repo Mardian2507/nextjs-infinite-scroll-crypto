@@ -42,8 +42,8 @@ export default function Home() {
 
   return (
     <main>
-      <div className="">
-        <h1 className="flex justify-center text-2xl uppercase font-bold py-5">
+      <div className="bg-slate-500">
+        <h1 className="flex justify-center bg-slate-400 text-2xl uppercase font-bold py-5">
           Crypto Gallery
         </h1>
         <CryptoList coinsData={coinsData} />
